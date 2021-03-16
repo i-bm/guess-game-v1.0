@@ -1,5 +1,4 @@
 "use strict";
-// const message = document.querySelector(".message").textContent;
 let randomNumber = Math.floor(Math.random() * 20) + 1;
 
 const inputValueChecker = () => {
