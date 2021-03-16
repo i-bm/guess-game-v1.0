@@ -21,7 +21,7 @@ const guessedValueChecker = function (e) {
     score--;
     document.querySelector(".score").textContent = score;
 
-    //    console.log(randomNumber);
+    
     if (guessedValue < randomNumber) showMessage('Too low!');
     else if (guessedValue > randomNumber) showMessage('Too high!');
     else if (guessedValue === randomNumber) {
